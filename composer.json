@@ -1,0 +1,9 @@
+{
+    "name": "jesseleite/starter-kit-test-github",
+    "extra": {
+        "statamic": {
+            "name": "Starter Kit Test Github",
+            "description": "Starter Kit Test Github starter kit"
+        }
+    }
+}
