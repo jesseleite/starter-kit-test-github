@@ -1,9 +1,14 @@
 {
-    "name": "jesseleite/starter-kit-test-github",
+    "name": "statamic/starter-kit-cool-writings",
     "extra": {
         "statamic": {
-            "name": "Starter Kit Test Github",
-            "description": "Starter Kit Test Github starter kit"
+            "name": "Starter Kit Cool Writings",
+            "description": "Starter Kit Cool Writings starter kit"
         }
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "@php upgrade-cli-notice.php"
+        ]
     }
 }
