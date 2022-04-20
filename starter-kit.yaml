@@ -17,3 +17,6 @@ export_paths:
   - tailwind.config.js
   - webpack.mix.js
   - upgrade-cli-notice.php
+dependencies:
+  statamic/ssg: ^1.0
+  statamic/seo-pro: ^3.1
