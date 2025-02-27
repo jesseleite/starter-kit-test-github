@@ -1,3 +1,4 @@
 export_paths:
   - app/Console/Commands/AddPartial.php
   - app/JasonService.php
+  - .gitignore
