@@ -9,7 +9,7 @@ class StarterKitPostInstall
     public function handle($console)
     {
         if ($console->confirm('Do you like Australia?', false)) {
-            $console->info('What about the spiders though?');
+            $console->info('What about the SPIDERS though?');
         }
 
         $console->call('statamic:peak:add-partial');
